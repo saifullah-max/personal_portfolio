@@ -6,6 +6,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 export default function Projects() {
   const [message, setMessage] = useState("");
   const [selectedScreenshots, setSelectedScreenshots] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const flagship = [
     {
